@@ -27,7 +27,6 @@
     "types": [
       "react",
       "vite/client",
-      "@testing-library/jest-dom"
     ],
     "useDefineForClassFields": true,
   },
