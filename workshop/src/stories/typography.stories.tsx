@@ -1,1 +1,3 @@
-export const Typography = () => <p>Lorem Ipsum</p>;
+import { Typography as TypographyComponent } from 'typography'
+
+export const Typography = () => <TypographyComponent />;
