@@ -1,0 +1,31 @@
+{
+  "name": "add-extra-class-names",
+  "version": "1.0.1",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CMOS-DRAKE/platform.git"
+  },
+  "license": "Unlicense",
+  "scripts": {
+    "test": "vitest run --coverage",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "ts-pattern": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@vitest/coverage-c8": "^0.31.2",
+    "@vitest/ui": "^0.31.2",
+    "rimraf": "^4.4.1",
+    "tsc-alias": "^1.8.5",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.0",
+    "vite-plugin-dts": "^2.3.0",
+    "vitest": "0.31.0"
+  }
+}
