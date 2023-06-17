@@ -95,7 +95,7 @@ export default function (plop) {
         type: 'append',
         path: '../workshop/package.json',
         pattern: '"dependencies": {',
-        template: '"@{{name}}": "*",',
+        template: '"{{name}}": "*",',
       },
     ],
   })
